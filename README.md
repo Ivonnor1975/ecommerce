@@ -24,7 +24,7 @@ AS A manager at an internet retail company, you will have a back end for my e-co
   6. Make sure to create a file called .env with the following lines including your sql password for root. 
   7. From the root directory of your project, type "mysql -u root -p"
       type "source db/schema.sql"
-      Exit mysql.
+      Exit mysql with "CTRL+Z".
   8. Modify server.js to reflect true on line 18 "sequelize.sync({ force: true })". 
   8. npm start so the application runs and create Models/dabase tables
   9. Exit application using Ctrl+C
