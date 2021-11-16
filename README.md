@@ -31,6 +31,7 @@ AS A manager at an internet retail company, you will have a back end for my e-co
   10. Type node seeds/index.js so data can be inserted on tables
   11. Modify server.js to reflect false on line 18 "sequelize.sync({ force: false }), so tables are not recreated when running app.
   12. npm start
+  13. Use Insomnia to interact with API's
   
 ## Usage
 GIVEN a functional Express.js API
@@ -44,6 +45,8 @@ WHEN I open API GET routes in Insomnia Core for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
+
+![image](https://user-images.githubusercontent.com/88918693/142017784-d674bd50-fe73-4d0d-ba02-300dae5a167a.png)
 
 Look at the video 
 
