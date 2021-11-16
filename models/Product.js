@@ -33,6 +33,7 @@ Product.init(
     stock: {
       type: DataTypes.INTEGER(11),
       allowNull: false,
+      defaultValue: 10,
       validate: {
         isNumeric: true
       }
